@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.NiterName{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  word-spacing: 1px;
+}
+
+.dropdown:hover>.dropdown-menu{
+  display: block;
+}
+.ArialTextCard {
+  z-index: 99999999999999;
+  padding-left: 150px;
+}
+.ArialTextCard p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  background-color: rgba(231, 231, 231, 0.6);
+}
+.ArialText {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25em;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 7px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  /*text-shadow: 1px 1px .1px red, 0 0 9px blue, 0 0 5px blue;*/
+}
+.art{
+  margin-bottom: -800px;
+}
+.Section_Two{
+  background:linear-gradient(0deg, rgba(250, 250, 250, 0.5), rgba(216, 216, 216, 0.719)), url(component/front/Section_Two/image/birds_eye_view_niter.jpg);
+  background-size:cover;
+}
+.principle {
+  font-family: 'Noto Sans Bengali', sans-serif;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(26, 26, 26);
+}
+.Speach{
+  font-family: 'Poppins', sans-serif;
+}
+.date{
+  border-left: 5px solid red ;
+}
+.eventText{
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(26, 26, 26);
+}
+.solid {
+  border-top: 5px solid rgb(255, 252, 252);
+}
+.solid_about{
+  border-top: 5px solid rgb(0, 0, 0);
+}
+.solid_faculti{
+  border-top: 3px solid rgb(0, 0, 0);
+}
+.hr_about {
+  height: 400px;
+  width:300px;
+  opacity: 1;
+  transform:rotate(-80deg);
+  -o-transform:rotate(-80deg);
+  -moz-transform:rotate(-80deg);
+  -webkit-transform:rotate(-80deg);
+}
+.hr_about_mission{
+  height: 200px;
+  width:150px;
+  opacity: 1;
+  transform:rotate(-80deg);
+  -o-transform:rotate(-80deg);
+  -moz-transform:rotate(-80deg);
+  -webkit-transform:rotate(-80deg);
+}
+.about_top{
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  background:linear-gradient(0deg, rgba(107, 107, 107, 0.5), rgba(114, 114, 114, 0.719)), url(component/about/image/265052184_2984130405187446_1289476563774103737_n.jpg);
+  background-size:cover;
+  background-position: center;
+}
+.facalty_top{
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  background:linear-gradient(0deg, rgba(107, 107, 107, 0.5), rgba(114, 114, 114, 0.719)), url(component/about/image/306356253_608177401000909_9125840763983835446_n.jpg);
+  background-size:cover;
+  background-position: bottom;
+}
+.notice_date{
+  border-left: 5px solid red ;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+}
+.about_image{
+  height: 700px;
+}
+.card_border{
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+.solid_about_end{
+  width: 200px;
+}
+.Teachers_image{
+  height: 950px;
+}
+.Teacher_Detail{
+  height: 950px;
+  overflow-y: scroll;
+}
+.textarea {
+  resize: none;
+}
